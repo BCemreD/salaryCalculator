@@ -108,13 +108,13 @@ public class Employee {
 	public int totalSalary() 
 	{
 	
-		int totalSal = salary + bonus + salResult - taxResult;
+		int totalSal =  salary + addedBonus() - taxResult +salResult;
 		return totalSal; 
 
 	}
 	public int taxNSalary()
 	{
-		int taxNSal = bonus + salary - taxResult;
+		int taxNSal =  salary + addedBonus() - taxResult;
 		return taxNSal;
 
 	}

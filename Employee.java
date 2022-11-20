@@ -51,12 +51,6 @@ public class Employee {
 	//for raise salary
 	int salResult;
 	
-	public int additionalHour()
-	{
-		int addedHour = workHours - 40;
-		return addedHour;
-	}
-	
 	// bonus hesabi
 	public int addedBonus()
 	{	int bonus;
